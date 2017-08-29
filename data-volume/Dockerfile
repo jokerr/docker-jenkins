@@ -1,4 +1,5 @@
 FROM debian:jessie
+MAINTAINER Josh Kerr
 
 # Create the jenkins user
 RUN useradd -d "/var/jenkins_home" -u 1000 -m -s /bin/bash jenkins
